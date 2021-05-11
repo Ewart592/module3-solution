@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+     }
+     .container-fluid
+     {
+      /* The image used */
+      background-image: url("fruits.jpg");
+      margin:0;
+      padding:0;
+      border: none;
+     }  /*this concerns withthe bodering for toggle navigation */ 
+    .navbar-toggle {
+        padding-bottom: 0;}
+
+     .header-nav{
+        
+       border:2px solid rgb(30, 21, 163); 
+       border-radius:15px;
+     }
+     .navbar-brand {
+       margin-top: 10px;
+       padding-top:15px;
+     }
+     .navbar-brand h2:hover /* this would allow the change color*/
+     {
+  color: white;
+  padding-top: 0%;   
+}
+     .navbar-nav{
+       margin:0 !important;
+      
+     }
+     .navbar-brand h2{
+       color: rgb(205, 250, 7);
+       font-size: 1.5em;
+       font-weight: bold;
+    
+       margin-bottom: 0;
+       text-decoration: none;
+       padding-top:0;
+       background-color: rgba(54, 58, 58, 0.938);
+       
+     
+             
+     }
+     #nav-list{
+       border:1px solid;
+         }
+     #nav-list:nth-child(3){ 
+       border-bottom:0;
+     }
+     #nav-list li{
+       color:rgb(226, 11, 11);
+       background:#fff;
+       border-bottom:2px solid;
+     }
+     #nav-list li:nth-child(3){
+       border-bottom:0;
+     }
+  .body
+  {
+    font-family: 'Lato', sans-serif; 
+  }
+ .navbar-brand /*font for FOOD, LLC*/
+  { 
+  
+   font-size: 25px;
+
+   text-decoration: none;
+  }
+    h1:hover
+  {
+    color: rgb(15, 79, 255);
+    font-style: italic;
+      text-decoration: none; 
+
+    }
+  h3 
+  { color: rgb(231, 218, 218);
+  
+  }
+  .row{
+    width: 100%;
+  }
+  
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item {
+	padding: 0px;
+	margin: 0px;
+  text-decoration: none;
+}
+  
+  .menu-title /* so this tagets the containment of the menu 
+  borders and there in it */
+  {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 215;
+    padding: 25px;
+    border: 10px solid rgba(8, 245, 87, 0.363);
+    border-style:groove;
+    }
+  .container-fluid 
+  {
+   position: relative;
+   top: 15px;
+   border: 5px;
+  }
+  
+  .item{
+    position: relative;
+    
+    background-color:#e6b9b9;
+    margin: 15px;
+    padding: 5 px;
+    border:  3px solid rgb(172, 167, 173);
+  }
+  .navbar-toggle
+  {
+    margin-top: 1px;
+    text-align: justify;
+    font-size:100%;
+    padding: 0px;
+  }
+  
+  .item p{
+    margin-top: 18px;
+    text-align: justify;
+    font-size:100%;
+    padding: 15px;
+  }
+  
+  .item-title {
+    position: absolute;
+    top:0;
+    right: 0px;
+    background: rgb(42, 100, 84); 
+    padding: 6px 90px 0px 0px;
+    border-left: 2px solid rgba(238, 245, 244, 0);
+    border-bottom: 2px solid rgb(231, 31, 31);
+    border-top:2px solid rgb(211, 25, 87);
+    border-left: 2px solid green;
+    
+  }
+  
+  #title-one:hover {
+    background-color: #721b1b;
+  } 
+  
+  #title-two:hover {
+    background-color: #0a742a;
+  }
+  
+  #title-three:hover {
+    background-color: #8d6908;
+    }
+  
+  /*  Responsive Framework. */
+  /*... Desktop ....*/
+  @media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;  
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+  }
+  
+  
+  /*..... Tablet Devices.....*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+  /* ...... Mobile Devices....*/
+  @media (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
